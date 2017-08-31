@@ -1,0 +1,69 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: rgba(20, 137, 8, 0.6);
+}
+
+/*_________________Title____________________________*/
+.title{
+  padding-top: 1em;
+  font-size: 3em;
+  text-align: center;
+  font-weight: bolder;
+  font-style: italic;
+  color: #cdd9f9;
+  text-shadow: 5px 5px 15px #515050;
+}
+
+/*_______________Registration Form__________________*/
+
+.form_style{
+  padding: 5%;
+  margin-bottom: 2em;
+  -webkit-box-shadow: 10px 10px 15px #515050,
+                     -10px -10px 15px #9c9696;
+     -moz-box-shadow: 10px 10px 15px #515050,
+                     -10px -10px 15px #9c9696;
+          box-shadow: 10px 10px 15px #515050,
+                     -10px -10px 15px #9c9696;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.registration_form-loading{
+  display: none;
+  margin-left: 5%;
+  }
+
+  /*_____________Create New Project_________________*/
+  .create_new_project-status{
+    color:inherit;
+  }
+
+  /*______________Task List________________________*/
+  .table>tbody>tr>td:nth-child(3),
+  .table>tbody>tr>td:nth-child(4){
+    width: 10%;
+  }
+
+  /*_____________Footer__________________________*/
+  .footer{
+    background: #3c3c3c;
+    min-height: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+
+  .footer-copy{
+    color: #EAEAEA;
+    text-align: center;
+    font-size: 1em;
+    font-style: italic;
+  }
+
+  .footer__copy-author{
+    color: #A19C9C;
+    font-weight: bold;
+  }
